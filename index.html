@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+				<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+				<link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/scripts.js"></script>
+        <title>Transportation Survey</title>
+		</head>
+		<body>
+			<div class="container">
+				<h1>Transportation Survey</h1>
+				<form id ="transportation-survey">
+					<div class="work-transportation">
+						<p>What modes of transportation do you use to get to work?</p>
+						<input type="checkbox" name="work-transportation" value="lyft">Taking a Lyft.<br>
+						<input type="checkbox" name="work-transportation" value="walk">Walking<br>
+						<input type="checkbox" name="work-transportation" value="bus">Riding the bus<br>
+						<input type="checkbox" name="work-transportation" value="car">Driving a car<br>
+						<input type="checkbox" name="work-transportation" value="streetcar">Riding on the street car(e.g. MAX or Portland Streetcar or Philadelphia Trolley<br><br>
+					</div>
+					<div class="fun-transportation">
+						<p>What modes of transportation do you use to get to school?</p>
+						<input type="checkbox" name="fun-transportation" value="lyft">Taking a Lyft.<br>
+						<input type="checkbox" name="fun-transportation" value="walk">Walking<br>
+						<input type="checkbox" name="fun-transportation" value="bus">Riding the bus<br>
+						<input type="checkbox" name="fun-transportation" value="car">Driving a car<br>
+						<input type="checkbox" name="fun-transportation" value="streetcar">Riding on the street car(e.g. MAX or Portland Streetcar or Philadelphia Trolley<br><br>
+					</div>
+					<button type="submit" class="btn btn-danger">Submit</button>
+				</form>
+				<span id="work-responses">
+					<p><b>You  use the following modes of transportation for work:</b></p>
+				</span>
+				<span id="fun-responses">
+					<p><b>You use the following modes of transportation for school:</b></p>
+				</span>
+			</div>
+		</body>
+</html>
